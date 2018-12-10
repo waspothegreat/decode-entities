@@ -1,0 +1,22 @@
+{
+  "name": "strip-entities",
+  "version": "1.0.0",
+  "description": "Strips every html entity possible",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waspothegreat/strip-entities.git"
+  },
+  "keywords": [
+    "html"
+  ],
+  "author": "waspothegreat <waspothegreat@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waspothegreat/strip-entities/issues"
+  },
+  "homepage": "https://github.com/waspothegreat/strip-entities#readme"
+}
