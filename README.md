@@ -1,5 +1,5 @@
-# strip-entities
-strips every html entity possible
+# decode-entities
+decodes every html entity possible
 
 # Usage
 
