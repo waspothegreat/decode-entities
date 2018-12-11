@@ -1,7 +1,7 @@
 /**
- * Removes (for the most part) HTML entities
- * @param {string} encodedString The string to clean up
- * @returns {string} The clean string with some entities replaced, any others that couldn't be replaced will be removed.
+ * Decodes (for the most part) HTML entities
+ * @param {string} encodedString The string to decode
+ * @returns {string} The clean string with some entities decoded, any others that couldn't be replaced will be removed.
  */
 module.exports = (encodedString) => {
 	const translateRegex = /&(nbsp|amp|quot|lt|gt);/g;
