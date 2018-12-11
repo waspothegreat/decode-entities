@@ -4,7 +4,7 @@ decodes every html entity possible
 # Usage
 
 ```js
-const stripEntities = require('strip-entities');
+const decodeEntities = require('decode-entities');
 
-stripEntities('&quot; &gt; &quot;'); // " > "
+decodeEntities('&quot; &gt; &quot;'); // " > "
 ```
