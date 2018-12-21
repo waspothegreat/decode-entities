@@ -6,7 +6,7 @@ const translationsObject = require('./entities.js');
  * @returns {string} The clean string with some entities decoded
  */
 module.exports = (encodedString) => {
-	const translateRegex = /&(nbsp|amp|quot|lt|gt);/g;
+	const translateRegex = new RegExp(`&(${Object.keys(translationsObject).join('|')});`, 'g');
 	const translateObject = translationsObject;
 
 	return encodedString.replace(translateRegex, (match, entity) => translateObject[entity]).replace(/&#(\d+);/gi, (match, numStr) => {
