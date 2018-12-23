@@ -1,6 +1,7 @@
 const translateObject = {
     nbsp: ' ',
     amp: '&',
+    apos: "'",
     quot: '"',
     lt: '<',
     gt: '>',
