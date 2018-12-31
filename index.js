@@ -13,5 +13,7 @@ module.exports = (encodedString) => {
 		const num = parseInt(numStr, 10);
 
 		return String.fromCharCode(num);
+	}).replace(/&#x([a-z0-9]+);/gi, (match, hexStr) => {
+		return String.fromCharCode(`0x${hexStr}`);
 	});
 };
