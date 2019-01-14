@@ -1,7 +1,7 @@
 const translationsObject = require('./entities.js');
 
 /**
- * Decodes (for the most part) HTML entities
+ * Decodes (for the most part) HTML 5 entities
  * @param {string} encodedString The string to decode
  * @returns {string} The clean string with some entities decoded
  */

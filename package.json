@@ -1,6 +1,6 @@
 {
   "name": "decode-entities",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Decodes every html entity possible",
   "main": "index.js",
   "scripts": {
